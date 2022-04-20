@@ -16,14 +16,14 @@
 
 ## Instructions/Setup
 1. Clone the repository using 
-'''
+```
 git clone https://github.com/UMass-Rescue/License-Plate-Detection
-'''
+```
 2. Download your own or the test video available at https://drive.google.com/open?id=1jd8WVKHYXfisMO390easOdPkZahonRNd 
 3. Run the main.py file using
-'''
+```
 python3 main.py
-'''
+```
 4. Go to the local server that the Flask website is hosted on. On Macs it will most likely be: http://127.0.0.1:5000/
 5. Click on 'Choose File' and upload the test video by clicking 'Get Plates'. Note: the video can now be found in the static/files directory
 6. After about 5 minutes the website will return License Plate Numbers with a timestamp corresponding to the time they were identified
